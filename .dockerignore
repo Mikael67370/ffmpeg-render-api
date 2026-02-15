@@ -1,0 +1,17 @@
+# =============================================================================
+# .dockerignore — Exclude unnecessary files from Docker build context
+# =============================================================================
+# Keeps the image small and prevents leaking secrets or dev artifacts.
+
+node_modules
+npm-debug.log*
+.git
+.gitignore
+.dockerignore
+Dockerfile
+*.md
+.env
+.env.*
+.vscode
+.idea
+*.log
